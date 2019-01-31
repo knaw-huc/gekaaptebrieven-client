@@ -1,9 +1,10 @@
 {
   "name": "gekaaptebrieven-client",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Client for Gekaapte Brieven",
   "repository": "https://github.com/knaw-huc/gekaaptebrieven-client.git",
   "scripts": {
+    "build": "webpack",
     "start:backend": "./scripts/start-backend.sh",
     "start:dev": "webpack-dev-server",
     "watch": "webpack -w"
@@ -24,7 +25,7 @@
   "dependencies": {
     "@emotion/core": "^10.0.6",
     "@emotion/styled": "^10.0.6",
-    "dispilio": "^1.0.1",
+    "dispilio": "^1.1.1",
     "huc-faceted-search": "^1.0.1",
     "huc-ui-components": "^1.2.1",
     "lodash.debounce": "^4.0.8",
