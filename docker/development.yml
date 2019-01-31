@@ -1,0 +1,14 @@
+# version: "2.1"
+
+# services:
+#   client:
+#     image: node:9-alpine
+#     command: ["npm", "run", "start:dev"]
+#     environment:
+#       - NODE_ENV=development
+#     ports:
+#       - "3000:3000"
+#     user: node
+#     volumes:
+#       - ../:/app
+#     working_dir: /app
