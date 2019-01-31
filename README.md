@@ -1,5 +1,5 @@
 # Gekaapte Brieven client
-
+&nbsp;
 ## Getting started
 #### Install dependencies
 ```
@@ -37,6 +37,9 @@ $ cd /path/to/gekaaptebrieven/data && sh tojanus.sh http://localhost:8080 tei/*
 $ curl http://localhost:8080/documents
 ```
 should give a list of document IDs
+&nbsp;
+
+&nbsp;
 
 ## Development
 #### Start the backend 
